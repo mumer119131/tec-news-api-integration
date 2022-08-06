@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --color-primary : #197278;
+    --color-secondary : #283D3B;
+
+    --transition : 500ms linear;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+nav h2{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--color-secondary);
+}
+main h1{
+    text-align: center;
+    letter-spacing: 2px;
+}
+main > p{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+.news__container{
+    padding: 5rem;
+}
+
+.news__container h2{
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+.news__container p{
+    font-weight: 300;
+    line-height: 2rem;
+}
